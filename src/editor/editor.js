@@ -8,8 +8,8 @@ import debounce from '../helpers';
 
 
 const Editor = ({classes,selectedNote,noteUpdate}) => {
-    const [text,setText]=useState('')
-    const [title,setTitle]=useState('')
+    const [text,setText]=useState(selectedNote.body)
+    const [title,setTitle]=useState(selectedNote.title)
     const [id,setId]=useState('')
 
   
@@ -17,8 +17,7 @@ useEffect(()=>{
    setText(selectedNote.body)
    setTitle(selectedNote.title)
    setId(selectedNote.id)
-  },[]) /////////////////////////////////////////////////
-
+  },[]) 
 
   useEffect(()=>{
     if(selectedNote.id!==id)
