@@ -24,7 +24,7 @@ const Sidebar = ({
   };
 
   //changed const to newNote here
-  //   newNote = () => {    //it was causing infinte calls so on button click i called the function newnote on line 57
+  //   newNote = () => {    //it was causing infinte calls so on button click i called the function newnote on line 57 ,same for deleteNote
   //     if (title !== null) {
   //       newNote(title);
   //       setTitle(null);

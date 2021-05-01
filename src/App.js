@@ -79,6 +79,7 @@ const App = () => {
     firebase
       .firestore()
       .collection("notes")
+      .orderBy('timestamp','desc')
       .onSnapshot((serverUpdate) => {
         const notes = serverUpdate.docs.map((doc) => {
           const data = doc.data();
