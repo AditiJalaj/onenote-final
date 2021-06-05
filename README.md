@@ -3,3 +3,7 @@
  deployed link - https://onenote-158.herokuapp.com/ 
 AND
 https://onenote-158.netlify.app/
+
+
+
+npm install react-quill --legacy-peer-deps
