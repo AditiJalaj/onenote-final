@@ -1,6 +1,6 @@
  evernote clone app built with ReactJS, React quill editor , material UI for styles ,firebase for the backend
  
- deployed link - https://onenote-158.netlify.app/
+ deployed link - https://onenote-15888.netlify.app/
 
 
 
